@@ -1,4 +1,16 @@
 
+// zig-zag pattern in this pattern frist loop row's is 3 becaus of limited / second loop for printing "*"
+// if / else condition
+
+
+//9
+//    *       *     
+//  *   *   *   *   
+//*       *       * 
+
+
+
+
 #include <iostream>
 using namespace std;
 int main()
