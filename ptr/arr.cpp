@@ -1,3 +1,7 @@
+
+
+// just for understanding how arr and pointer run and declare
+
 #include<iostream>
 
 using namespace std;
@@ -12,7 +16,7 @@ int main(){
     {
         cout<<*ptr<<endl;
         // ptr++;
-    }
+    } 
     
 
     return 0;

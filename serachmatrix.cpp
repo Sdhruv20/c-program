@@ -1,3 +1,5 @@
+// seraching the element in matrix.
+
 #include <iostream>
 
 using namespace std;
@@ -7,6 +9,10 @@ int main()
 
     int n, m;
     cin >> n >> m;
+
+
+//Declares two integer variables n and m. These will be used to store the number of rows (n) and columns
+// (m) of a 2D array. cin >> n >> m; reads these values from the user.
 
     int target;
     cin >> target;
@@ -21,33 +27,36 @@ int main()
         }
     }
 
+
+// use the bool flage to find value
+
     int r = 0, c = m - 1;
-    bool found=false;
-    while (r<n and c>=0)
+    bool found = false;
+    while (r < n and c >= 0)
     {
-        if(a[r][c]== target){
-        found=true;
+        if (a[r][c] == target)
+        {
+            found = true;
         }
 
-        if (a[r][c]>target)
+        if (a[r][c] > target)
         {
             c--;
         }
-        else{
+        else
+        {
             r++;
         }
-        
     }
-    
+
     if (found)
     {
-        cout<<"element found";
+        cout << "element found";
     }
     else
     {
-        cout<<"element does not found";
+        cout << "element does not found";
     }
-    
 
     return 0;
 }
