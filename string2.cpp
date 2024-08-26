@@ -30,11 +30,14 @@ int main(){
     // cout<<a<<endl;
 
     //compare two value
+    // if the value is same output = 0/ less then = -1/greter than 1/
+    // string s1= "abc";
+    // string s2= "abc";
+    // cout<< s2.compare(s1)<<endl;
 
-    string s1= "abc";
-    string s2= "abc";
+    // empty function in string
 
-    cout<< s2.compare(s1)<<endl;
+
 
     return 0;
 }
