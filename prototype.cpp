@@ -5,6 +5,8 @@
 using namespace std;
 
 // syntex of function protptypoe
+// means if i write function in after "int main" the code will not run
+// but if i give function prototype in frist the prototype give commant to find and run the perogram.
 
 int sum(int a, int b);
 

@@ -6,7 +6,7 @@
 using namespace std;
 
 // here i make function. the name of function is "(sum)" and give value "int a" and "int ".
-
+// (int a, int b) is a parameters
 int sum(int a, int b)
 {
     int c = a + b;
@@ -24,7 +24,7 @@ int main()
     cout << "enter second the number" << endl;
     cin >> num2;
 
-    //  sum(num1, num2) that means the value give (int a , int b)
+    //  sum(num1, num2) that means the value gives (int a , int b)
 
     cout << "the sum is :" << sum(num1, num2) << endl;
     return 0;
