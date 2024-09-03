@@ -3,6 +3,7 @@ using namespace std;
 
 class office
 {
+
 private:
     int a, b, c;
 
@@ -22,7 +23,7 @@ public:
     };
 };
 
-void office ::setdata(int a1, int b1, int c1)// another way to declar function as it is upon
+void office ::setdata(int a1, int b1, int c1)// another way to declar function as it is upon for private class
 {
     a = a1;
     b = b1;
@@ -35,6 +36,7 @@ int main()
 // this for public class
     dhruv.d=5;
     dhruv.e=6;
+    // dhruv.a =7; i can not declare like this because a is in private class
 
     // this metode use to print private class
     dhruv.setdata(1,2,3);
