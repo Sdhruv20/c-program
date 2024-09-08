@@ -47,7 +47,7 @@ void shop ::displayprice(void)
 }
 int main()
 {
-    shop d;
+    shop d, r;
     d.initcounter();
 
     // if i want to add more data just using (d.setprice();)
@@ -56,7 +56,7 @@ int main()
     d.setprice();
     d.displayprice();
 
-    shop r;
+    
     r.initcounter();
     r.setprice();
     r.displayprice();
