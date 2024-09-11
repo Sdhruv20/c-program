@@ -11,6 +11,7 @@ public:
     {
         return (a + b);
     }
+    // this the fuction declaration
     int sumcomplex(complex, complex);
     int sumcompcomplex(complex, complex);
 };
@@ -19,8 +20,12 @@ class complex
 {
     int a, b;
 
-    
-    friend class calculator;
+    // individually decatring function friend
+    friend int calculator ::sumcomplex(complex o1, complex o2);
+    friend int calculator ::sumcompcomplex(complex o1, complex o2);
+
+    // entire class as friend
+    // friend class calculator; // this the declaration of entire class friend function
 
 public:
     void setnumber(int n1, int n2)
@@ -48,9 +53,13 @@ int main()
     complex o1, o2;
     o1.setnumber(1, 4);
     o2.setnumber(5, 8);
+
+
     calculator calc;
     int res = calc.sumcomplex(o1, o2);
     cout << "the result of sum is " << res << endl;
+
+
     int resc = calc.sumcompcomplex(o1, o2);
     cout << "the result of sum is " << resc << endl;
 
