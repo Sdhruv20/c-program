@@ -6,6 +6,10 @@ using namespace std;
 class Point
 {
 private:
+
+/*double: This is a data type in C++ that represents floating-point numbers, which can have decimal points. 
+It provides double-precision floating-point arithmetic, meaning it can represent a larger range of values 
+and more precision compared to float.*/
     double x, y; // Coordinates of the point
 
 public:
