@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "iosfwd": "cpp"
     },
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "C_Cpp.errorSquiggles": "disabled"
 }
