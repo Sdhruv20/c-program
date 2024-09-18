@@ -13,6 +13,7 @@ class bankdeposit
     float returnvalue; // Corrected the typo here
 
 public:
+    
     bankdeposit(int p, int y, float r);
     bankdeposit(int p, int y, int r);
     void show();
