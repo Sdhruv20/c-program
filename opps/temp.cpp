@@ -1,3 +1,8 @@
+
+
+// single inheritance 
+// in this program call private class through inheritance
+
 #include <iostream>
 using namespace std;
 
@@ -28,6 +33,9 @@ int base::getdata2()
     return data2;
 }
 
+
+
+//diferrents between call private class and pub;ic class
 class derived : private base
 {
     int data3;

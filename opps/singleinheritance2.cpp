@@ -1,9 +1,13 @@
+
+
+// single inheritance 
+
 #include <iostream>
 using namespace std;
 
 class base
 {
-    int data1;
+    int data1; // it is a private class and it cannot be runed by inheritance because private  by defulat and is not inheritance
 
 public:
     int data2;
@@ -31,7 +35,7 @@ int base ::getdata2()
 
 
 
-
+// 
 class derived : public base
 {
     int data3;
