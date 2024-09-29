@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "ostream": "cpp"
     },
     "editor.mouseWheelZoom": true,
     "C_Cpp.errorSquiggles": "disabled"
